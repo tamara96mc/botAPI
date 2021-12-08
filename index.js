@@ -11,7 +11,7 @@ let telefono = '';
 
 venom
     .create({
-        session: 'session-name', //name of session
+        session: 'jira-bot', //name of session
         multidevice: false // for version not multidevice use false.(default: true)
     })
     .then((client) => start(client))
